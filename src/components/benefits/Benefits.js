@@ -18,6 +18,10 @@ const ContainerInfo = styled.div`
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    @media(max-width: 800px){
+        margin: 0 auto;
+    }
 `
 
 const Image = styled.img`
@@ -42,10 +46,9 @@ const Description = styled.p`
     font-size: 14px;
     line-height: 21px;
     text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
 `
-
-
-
 
 export default function Benefits(){
     return(

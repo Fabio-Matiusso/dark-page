@@ -14,11 +14,20 @@ const HeaderStyled = styled.header`
     align-items: center;
     padding-right: 40px;
     padding-left: 40px;
+
+    @media(max-width: 800px){
+        max-width: 100%;
+    }
 `
 
 const LogoHeader = styled.img`
     width: 120px;
     height: 40px;
+
+    @media(max-width: 800px){
+        max-width: 90px;
+        height: 30px;
+    }
 `
 
 const ContainerNav = styled.div`

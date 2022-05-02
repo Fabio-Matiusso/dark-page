@@ -10,6 +10,10 @@ const Navigation = styled.nav`
 
 const Link = styled.li`
     font-size: 1.2rem;
+
+    @media (max-width: 780px) {
+        font-size: 1rem;
+    }
 `
 
 export default function Nav(){
