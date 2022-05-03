@@ -7,4 +7,7 @@
 body{
     background-color: #0B1524;
     color: #FFF;
+    background-image: url('./images/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
