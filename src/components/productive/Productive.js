@@ -8,6 +8,7 @@ export const Container = styled.section`
     justify-content: space-between;
     max-width: 80%;
     margin: 0 auto;
+    height: 500px;
 
     @media (max-width: 800px){
         flex-direction: column;
